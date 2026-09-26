@@ -100,8 +100,8 @@ public class MedianOfTwoSortedArrays {
         System.out.println("Brute Force: " + solver.findMedianBruteForce(nums1, nums2)); // 2.0
         System.out.println("Optimized:   " + solver.findMedian(nums1, nums2));           // 2.0
 
-        int[] nums3 = {1, 2};
-        int[] nums4 = {3, 4};
+        int[] nums3 = {1, 2,3,5,2};
+        int[] nums4 = {3, 4,8,9};
         System.out.println("Brute Force: " + solver.findMedianBruteForce(nums3, nums4)); // 2.5
         System.out.println("Optimized:   " + solver.findMedian(nums3, nums4));           // 2.5
     }
